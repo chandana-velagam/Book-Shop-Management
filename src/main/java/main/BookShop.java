@@ -7,6 +7,7 @@ public class BookShop{
 	public static void main(String args[]){
         for(int i=0;i<50;i++){
             itemAvailable[i] = new Item();
+                System.out.println("Hello");
         }
 
         itemAvailable[0].addItem("To kill a mockingbird", 40);
